@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/cardview_dark_background">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.widget.Button
+            android:id="@+id/btn_main_1"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@drawable/video1_image"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+        </android.widget.Button>
+
+        <TextView
+            android:id="@+id/text_main_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="video1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/btn_main_1" />
+
+        <android.widget.Button
+            android:id="@+id/btn_main_2"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@drawable/video2_image"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/text_main_1">
+        </android.widget.Button>
+
+        <TextView
+            android:id="@+id/text_main_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="video2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/btn_main_2" />
+
+        <android.widget.Button
+            android:id="@+id/btn_main_3"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@drawable/video3_image"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/text_main_2">
+        </android.widget.Button>
+
+        <TextView
+            android:id="@+id/text_main_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="video3"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/btn_main_3"/>
+
+        <android.widget.Button
+            android:id="@+id/btn_main_4"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@drawable/video4_image"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/text_main_3">
+        </android.widget.Button>
+
+        <TextView
+            android:id="@+id/text_main_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="video4"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/btn_main_4"/>
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
